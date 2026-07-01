@@ -4,7 +4,9 @@
             <span class="nav_title_icon"></span>
             <span @click="title = !title" class="nav_title_text">{{ title? "不知名の小站" : "Made by XunQiu" }}</span>
         </div>
-        <div class="nav_links"></div>
+        <div class="nav_links">
+            
+        </div>
         <div class="nav_func"></div>
     </div>
 </template>
