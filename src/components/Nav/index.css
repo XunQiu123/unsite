@@ -31,9 +31,27 @@
     cursor: pointer;
 }
 
+.nav_title_text:hover{
+    color: var(--unsite-theme-green);
+}
+
 .nav_links{
     width: calc(100% / 3);
     height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav_links_text{
+    color: var(--unsite-font-color);
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s color ease-out;
+}
+
+.nav_links_text:hover{
+    color: var(--unsite-theme-green);
 }
 
 .nav_func{

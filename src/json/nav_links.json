@@ -1,0 +1,18 @@
+[
+    {
+        "text": "首页",
+        "id": "nav.link.index"
+    },
+    {
+        "text": "时间线",
+        "id": "nav.link.timeline"
+    },
+    {
+        "text": "联系我们",
+        "id": "nav.link.content"
+    },
+    {
+        "text": "关于我们",
+        "id": "nav.link.aboutme"
+    }
+]

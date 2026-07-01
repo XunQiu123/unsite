@@ -4,8 +4,8 @@
             <span class="nav_title_icon"></span>
             <span @click="title = !title" class="nav_title_text">{{ title? "不知名の小站" : "Made by XunQiu" }}</span>
         </div>
-        <div class="nav_links">
-            
+        <div class="flex nav_links">
+            <span class="nav_links_text" v-for="value in links" :key="value.id">{{ value.text }}</span>
         </div>
         <div class="nav_func"></div>
     </div>
@@ -13,6 +13,9 @@
 <script setup lang="ts" Name="Nav">
     import { ref } from 'vue';
     import './index.css'
+    import links from '../../json/nav_links.json'
 
-    let title = ref(true)
+    //true "不知名の小站"
+    //false "Made by XunQiu"
+    let title = ref<boolean>(true)
 </script>
