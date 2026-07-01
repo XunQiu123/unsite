@@ -25,7 +25,7 @@
 .nav_title_icon{
     width: 20px;
     height: 20px;
-    margin-left: 20px;
+    margin: 0 20px;
     background-image: url('../../../public/icon.svg');
     background-size: contain;
     background-repeat: no-repeat;
