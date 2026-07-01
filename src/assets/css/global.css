@@ -8,6 +8,7 @@
     --unsite-theme-purple: #C998FB;
     --unsite-theme-pink: #FB98C9;
     --unsite-background: #1a1a1a;
+    --unsite-card-background: #282828;
 }
 
 *{
@@ -19,8 +20,17 @@ body,html,*,::after,::before{
     box-sizing: border-box;
 }
 
+html,body{
+    height: 100%;
+}
+
 body{
+    background-image: url('../../../public/background.svg');
     background-color: var(--unsite-background);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .flex{

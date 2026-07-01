@@ -14,14 +14,14 @@ scene: git_message
 - 格式: `<type>: <subject>`
 
 ## 类型 (type)
-- feat: 新功能
-- fix: 修复问题
-- docs: 文档修改
-- style: 代码格式修改（不影响功能）
-- refactor: 代码重构
-- perf: 性能优化
-- test: 测试相关
-- chore: 构建/工具相关
+- ⚙️ feat: 新功能
+- 🔧 fix: 修复问题
+- 📃 docs: 文档修改
+- 🎲 style: 代码格式修改（不影响功能）
+- 🧱 refactor: 代码重构
+- 🧩 perf: 性能优化
+- 🕹️ test: 测试相关
+- 🛠️ chore: 构建/工具相关
 
 ## 主题 (subject)
 - 不超过 50 个字符
