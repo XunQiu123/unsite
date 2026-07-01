@@ -22,3 +22,7 @@ body,html,*,::after,::before{
 body{
     background-color: var(--unsite-background);
 }
+
+.flex{
+    display: flex;
+}
