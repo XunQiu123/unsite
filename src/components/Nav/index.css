@@ -29,6 +29,7 @@
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
+    transition: 0.3s color ease-out;
 }
 
 .nav_title_text:hover{
