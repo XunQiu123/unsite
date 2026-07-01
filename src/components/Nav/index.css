@@ -1,5 +1,13 @@
+.nav_main{
+    background-color: var(--unsite-theme-white);
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+}
+
 .nav{
     background-color: var(--unsite-theme-green);
-    max-width: 1350px;
+    max-width: 1360px;
+    width: 100%;
     height: 60px;
 }
