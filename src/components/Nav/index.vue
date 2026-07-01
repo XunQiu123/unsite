@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="nav">
 
     </div>
 </template>

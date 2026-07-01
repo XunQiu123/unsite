@@ -1,3 +1,5 @@
 .nav{
-    
+    background-color: var(--unsite-theme-green);
+    max-width: 1350px;
+    height: 60px;
 }
