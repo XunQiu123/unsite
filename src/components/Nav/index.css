@@ -1,4 +1,11 @@
+.nav_main{
+    width: 100%;
+    justify-content: center;
+}
+
 .nav{
+    max-width: 1350px;
+    width: 100%;
     height: 60px;
     background-color: var(--unsite-card-background);
     border-radius: 10px;
@@ -25,7 +32,7 @@
 }
 
 .nav_title_text{
-    color: var(--unsite-font-color);
+    color: var(--unsite-font-color-white);
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
@@ -44,15 +51,18 @@
 }
 
 .nav_links_text{
-    color: var(--unsite-font-color);
+    color: var(--unsite-font-color-white);
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
-    transition: 0.3s color ease-out;
+    transition: 0.3s color ease-out, 0.3s background-color ease;
+    padding: 8px 16px;
+    border-radius: 2rem;
 }
 
 .nav_links_text:hover{
-    color: var(--unsite-theme-green);
+    color: var(--unsite-font-color-black);
+    background: linear-gradient(135deg, var(--unsite-theme-green), var(--unsite-theme-blue));
 }
 
 .nav_func{

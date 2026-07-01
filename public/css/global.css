@@ -19,7 +19,8 @@
     --unsite-background: #1a1a1a;
     --unsite-card-background: #282828;
     --unsite-border: #505050;
-    --unsite-font-color: #ffffff;
+    --unsite-font-color-white: #ffffff;
+    --unsite-font-color-black: #121212;
     --unsite-font-family: 'HarmonyOS Sans', sans-serif;
 }
 
