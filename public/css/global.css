@@ -16,11 +16,12 @@
     --unsite-theme-orange: #F9AB5D;
     --unsite-theme-purple: #C998FB;
     --unsite-theme-pink: #FB98C9;
+    --unsite-theme-green-blue-gradient: linear-gradient(135deg, var(--unsite-theme-green), var(--unsite-theme-blue));
     --unsite-background: #1a1a1a;
     --unsite-card-background: #282828;
     --unsite-border: #505050;
     --unsite-font-color-white: #ffffff;
-    --unsite-font-color-black: #121212;
+    --unsite-font-color-black: #282828;
     --unsite-font-family: 'HarmonyOS Sans', sans-serif;
 }
 
