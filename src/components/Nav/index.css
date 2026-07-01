@@ -18,7 +18,7 @@
 
 .nav_title{
     align-items: center;
-    width: 50%;
+    width: calc(100% / 3);
     height: 60px;
 }
 
@@ -26,13 +26,26 @@
     width: 20px;
     height: 20px;
     margin: 0 20px;
-    background-image: url('../../../public/icon.svg');
+    background-image: url('../../../public/svg/nav_icon.svg');
     background-size: contain;
     background-repeat: no-repeat;
 }
 
+.nav_title_text{
+    color: var(--unsite-font-color);
+    font-size: 18px;
+    font-family: 'HarmonyOS Sans';
+    font-weight: bold;
+}
+
 .nav_links{
     justify-content: center;
-    width: 50%;
+    width: calc(100% / 3);;
+    height: 60px;
+}
+
+.nav_func{
+    justify-content: center;
+    width: calc(100% / 3);;
     height: 60px;
 }

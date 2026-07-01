@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'HarmonyOS Sans';
+    src: url('../../../public/font/HarmonyOS_Sans_Regular.ttf') format('truetype');
+}
+
 :root{
     --unsite-theme-green: #98FB98;
     --unsite-theme-white: #EEEEEE;
@@ -10,6 +15,8 @@
     --unsite-background: #1a1a1a;
     --unsite-card-background: #282828;
     --unsite-border: #505050;
+    --unsite-font-color: #ffffff;
+    --unsite-font-family: 'HarmonyOS Sans', sans-serif;
 }
 
 *{
@@ -32,6 +39,8 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    font-family: var(--unsite-font-family);
+    color: var(--unsite-font-color);
 }
 
 .flex{
