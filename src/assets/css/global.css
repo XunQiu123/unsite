@@ -1,0 +1,24 @@
+:root{
+    --unsite-theme-green: #98FB98;
+    --unsite-theme-white: #EEEEEE;
+    --unsite-theme-red: #FB9898;
+    --unsite-theme-yellow: #FBFB98;
+    --unsite-theme-blue: #98C9FB;
+    --unsite-theme-orange: #F9AB5D;
+    --unsite-theme-purple: #C998FB;
+    --unsite-theme-pink: #FB98C9;
+    --unsite-background: #1a1a1a;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body,html,*,::after,::before{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--unsite-background);
+}
