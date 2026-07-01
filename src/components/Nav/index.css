@@ -36,6 +36,7 @@
     font-size: 18px;
     font-family: 'HarmonyOS Sans';
     font-weight: bold;
+    cursor: pointer;
 }
 
 .nav_links{
