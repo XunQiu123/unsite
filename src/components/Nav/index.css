@@ -43,7 +43,10 @@
 }
 
 .nav_title_text:hover{
-    color: var(--unsite-theme-green);
+    background: var(--unsite-theme-green-blue-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .nav_links{
