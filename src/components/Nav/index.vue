@@ -3,7 +3,7 @@
         <div class="flex nav">
             <div class="flex nav_title">
                 <span class="nav_title_icon"></span>
-                <span @click="title = !title" class="nav_title_text">{{ title? "不知名の小站" : "Made by XunQiu" }}</span>
+                <span @click="title = !title" class="nav_title_text" :data-text="title ? '不知名の小站' : 'Made by XunQiu'">{{ title? "不知名の小站" : "Made by XunQiu" }}</span>
             </div>
             <div class="flex nav_links">
                 <span class="nav_links_text" v-for="link in links" :key="link.id">{{ link.text }}</span>
