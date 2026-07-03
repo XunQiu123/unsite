@@ -18,7 +18,7 @@
 <script setup lang="ts" Name="Nav">
     import { ref } from 'vue';
     import './index.css'
-    import links from '../../json/nav_links.json'
+    import links from '../../assets/json/nav_links.json'
 
     //true "不知名の小站"
     //false "Made by XunQiu"
