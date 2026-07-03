@@ -7,7 +7,7 @@ const useGetHitokoto = () => {
 
     const fetchData = async () => {
         try {
-            const res = await axios.get('https://v1.hitokoto.cn/', {
+            const res = await axios.get("https://v1.hitokoto.cn/", {
                 timeout: 5000
             });
             hitokoto.value = res.data.hitokoto;
@@ -15,7 +15,7 @@ const useGetHitokoto = () => {
         } catch (error: any) {
             console.error('一言获取失败:', error.message || error);
             hitokoto.value = '生活明朗，万物可爱';
-            from.value = '未知';
+            from.value = 'DouBao';
         }
     };
 
