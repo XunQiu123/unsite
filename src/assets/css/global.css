@@ -46,7 +46,7 @@ html,body{
 
 body{
     background-color: var(--unsite-background);
-    background-image: url("../../../public/svg/background.svg");
+    background-image: url("../../../public/background.svg");
     font-family: var(--unsite-font-family);
     background-size: cover;
     background-position: center;
