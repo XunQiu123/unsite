@@ -1,5 +1,5 @@
 <template>
-    <button @click="getInfo">114514</button>
+
 </template>
 <script setup lang="ts" name="Welcome">
     import axios from 'axios';
