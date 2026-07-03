@@ -7,34 +7,16 @@
     src: url('../../../public/font/Pacifico-Regular.ttf') format('truetype');
 }
 
-/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
-/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
-@font-face {
-    font-family: 'iconfont';  /* Project id 5204515 */
-    src: url('//at.alicdn.com/t/c/font_5204515_deh7ytndi7j.woff2?t=1783083575650') format('woff2'),
-        url('//at.alicdn.com/t/c/font_5204515_deh7ytndi7j.woff?t=1783083575650') format('woff'),
-        url('//at.alicdn.com/t/c/font_5204515_deh7ytndi7j.ttf?t=1783083575650') format('truetype');
-}
-
-.iconfont{
-    font-family:"iconfont" !important;
-    color: #ffffff;
-    font-size:22px;
-    font-style:normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;
-}
-
 :root{
     --unsite-theme-green: #98FB98;
-    --unsite-theme-white: #EEEEEE;
+    --unsite-theme-white: #ffffff;
     --unsite-theme-red: #FB9898;
     --unsite-theme-yellow: #FBFB98;
     --unsite-theme-blue: #98C9FB;
     --unsite-theme-orange: #F9AB5D;
     --unsite-theme-purple: #C998FB;
     --unsite-theme-pink: #FB98C9;
+    --unsite-theme-black: #000000;
     --unsite-theme-green-blue-gradient: linear-gradient(135deg, var(--unsite-theme-green), var(--unsite-theme-blue));
     --unsite-background: #1a1a1a;
     --unsite-card-background: #282828;
@@ -75,6 +57,41 @@ body{
 button{
     background: none;
     border: none;
+}
+
+.icon-bg{
+    position: relative !important;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    padding: 0 !important;
+    border-radius: 2rem;
+    z-index: 1;
+    transition: color 0.3s ease-out;
+}
+
+.icon-bg::after{
+    content: '';
+    background: var(--unsite-theme-green-blue-gradient);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+}
+
+.icon-bg:hover::after{
+    opacity: 1;
+}
+
+.icon-bg:hover{
+    color: var(--unsite-theme-black) !important;
 }
 
 .flex{

@@ -22,17 +22,10 @@
 
 .nav_title{
     align-items: center;
+    justify-content: flex-start;
+    padding-left: 19px;
 }
 
-.nav_title_icon{
-    width: 20px;
-    height: 20px;
-    background-image: url('../../../public/svg/nav_icon.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 0 20px;
-}
 
 .nav_title_text{
     color: var(--unsite-font-color-white);
@@ -40,6 +33,7 @@
     font-weight: bold;
     cursor: pointer;
     position: relative;
+    margin-left: 19px;
 }
 
 .nav_title_text::before{
@@ -60,7 +54,6 @@
 }
 
 .nav_links{
-
     align-items: center;
     justify-content: space-around;
 }
