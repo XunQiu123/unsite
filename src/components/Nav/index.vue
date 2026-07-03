@@ -9,9 +9,7 @@
                 <span class="nav_links_text" v-for="link in links" :key="link.id">{{ link.text }}</span>
             </div>
             <div class="flex nav_func">
-                <span class="nav_func_github_wrap">
-                    <span class="nav_func_github"></span>
-                </span>
+                
             </div>
         </div>
     </div>
