@@ -1,18 +1,22 @@
 [
     {
         "text": "首页",
-        "id": "nav.link.index"
+        "id": "nav.link.index",
+        "link": "/"
     },
     {
         "text": "时间线",
-        "id": "nav.link.timeline"
+        "id": "nav.link.timeline",
+        "link": "/"
     },
     {
         "text": "联系我们",
-        "id": "nav.link.content"
+        "id": "nav.link.content",
+        "link": "/"
     },
     {
         "text": "关于我们",
-        "id": "nav.link.aboutme"
+        "id": "nav.link.aboutme",
+        "link": "/"
     }
 ]
