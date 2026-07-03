@@ -1,11 +1,8 @@
 <template>
-
+    
 </template>
 <script setup lang="ts" name="Welcome">
-    import axios from 'axios';
+    /* import useGetHitokoto from '../../hooks/useGetHitokoto' */
 
-    const getInfo = async () => {
-        const res = await axios.get('https://v1.hitokoto.cn/')
-        console.log(res.data.hitokoto);
-    }
+    /* const { hitokoto,from } = useGetHitokoto() */
 </script>
