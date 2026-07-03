@@ -101,3 +101,12 @@
 .nav_func{
     align-items: center;
 }
+
+.nav_func_github{
+    width: 20px;
+    height: 20px;
+    background-image: url('../../assets/icon/github_white.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
