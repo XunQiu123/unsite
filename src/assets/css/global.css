@@ -104,3 +104,13 @@ button{
 .grid{
     display: grid;
 }
+
+.shit{
+    color: var(--unsite-font-color-black) !important;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+.shit:hover{
+    color: var(--unsite-font-color-white) !important;
+}
