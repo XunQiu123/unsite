@@ -10,7 +10,7 @@ const useGetHitokoto = () => {
             const res = await axios.get("https://v1.hitokoto.cn/", {
                 timeout: 5000
             });
-            hitokoto.value = res.data.hitokoto;
+            hitokoto.value = res.data.hitokoto.replace(/[。.]$/g, '');
             from.value = res.data.from || '未知';
         } catch (error: any) {
             console.error('一言获取失败:', error.message || error);
