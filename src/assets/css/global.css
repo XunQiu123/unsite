@@ -1,10 +1,12 @@
 @font-face {
     font-family: 'HarmonyOS Sans';
     src: url('../../../public/font/HarmonyOS_Sans_Regular.ttf') format('truetype');
+    font-display: swap;
 }
 @font-face {
     font-family: 'Pacifico';
     src: url('../../../public/font/Pacifico-Regular.ttf') format('truetype');
+    font-display: swap;
 }
 
 :root{
