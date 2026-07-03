@@ -7,6 +7,25 @@
     src: url('../../../public/font/Pacifico-Regular.ttf') format('truetype');
 }
 
+/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+    font-family: 'iconfont';  /* Project id 5204515 */
+    src: url('//at.alicdn.com/t/c/font_5204515_deh7ytndi7j.woff2?t=1783083575650') format('woff2'),
+        url('//at.alicdn.com/t/c/font_5204515_deh7ytndi7j.woff?t=1783083575650') format('woff'),
+        url('//at.alicdn.com/t/c/font_5204515_deh7ytndi7j.ttf?t=1783083575650') format('truetype');
+}
+
+.iconfont{
+    font-family:"iconfont" !important;
+    color: #ffffff;
+    font-size:22px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 :root{
     --unsite-theme-green: #98FB98;
     --unsite-theme-white: #EEEEEE;

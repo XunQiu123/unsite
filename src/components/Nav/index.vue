@@ -9,7 +9,7 @@
                 <span class="nav_links_text" v-for="link in links" :key="link.id">{{ link.text }}</span>
             </div>
             <div class="flex nav_func">
-                
+                <i class="iconfont">&#xe885;</i>
             </div>
         </div>
     </div>
