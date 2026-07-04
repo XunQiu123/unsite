@@ -8,9 +8,10 @@
     width: 100%;
     height: 60px;
     background-color: var(--unsite-card-background);
+    border: 2px solid var(--unsite-border);
     border-radius: 10px;
-    border: 1px solid var(--unsite-border);
     margin: 10px;
+    transition: border 0.3s ease-out;
 }
 
 .nav_title,
