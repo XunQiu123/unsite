@@ -1,10 +1,8 @@
-/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
 @font-face {
-    font-family: 'iconfont';
-    /* Project id 5204515 */
-    src: url('//at.alicdn.com/t/c/font_5204515_3hbkyn7a5nx.woff2?t=1783085235297') format('woff2'),
-        url('//at.alicdn.com/t/c/font_5204515_3hbkyn7a5nx.woff?t=1783085235297') format('woff'),
-        url('//at.alicdn.com/t/c/font_5204515_3hbkyn7a5nx.ttf?t=1783085235297') format('truetype');
+    font-family: 'iconfont';  /* Project id 5204515 */
+    src: url('//at.alicdn.com/t/c/font_5204515_meg2szhczsp.woff2?t=1784814409435') format('woff2'),
+        url('//at.alicdn.com/t/c/font_5204515_meg2szhczsp.woff?t=1784814409435') format('woff'),
+        url('//at.alicdn.com/t/c/font_5204515_meg2szhczsp.ttf?t=1784814409435') format('truetype');
 }
 
 .iconfont{
