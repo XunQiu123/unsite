@@ -8,10 +8,33 @@
             <a href="https://blog.imsyy.top/">無名小栈</a>
             <span class="readme_text">与</span>
             <a href="https://blog.zhheo.com/">张洪Heo</a>
-            <span class="readme_text">。目前正在开发中，之后可能会成为我的游戏官网、工作室/团队的子网站</span>
+            <span class="readme_text">。目前正在开发中，之后可能会成为我的游戏官网、工作室/团队的子网站。</span>
         </div>
     </div>
 </template>
 <script setup lang="ts" name="Readme">
-    import './index.css'
+    // pass
 </script>
+
+<style scoped>
+    .readme_main{
+        width: 100%;
+        justify-content: center;
+    }
+    .readme{
+        max-width: 1350px;
+        width: 100%;
+        padding: 20px;
+        margin: 10px;
+        background-color: var(--unsite-card-background);
+        border-radius: 10px;
+        border: 1px solid var(--unsite-border);
+    }
+    
+    .readme_text{
+        font-family: HarmonyOS Sans;
+        font-weight: bold;
+        font-size: 17px;
+        color: var(--unsite-font-color-white);
+    }
+</style>
