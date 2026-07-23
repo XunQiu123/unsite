@@ -8,7 +8,7 @@
 </template>
 <script setup lang="ts" name="Welcome">
     import './index.css'
-    import useGetHitokoto from '../../hooks/useGetHitokoto'
+    import getHitokoto from '../../utils/getHitokoto'
 
-    const { hitokoto,from } = useGetHitokoto()
+    const { hitokoto,from } = getHitokoto()
 </script>

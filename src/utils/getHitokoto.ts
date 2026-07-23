@@ -15,7 +15,7 @@ const useGetHitokoto = () => {
         } catch (error: any) {
             console.error('一言获取失败:', error.message || error);
             hitokoto.value = '生活明朗，万物可爱';
-            from.value = 'DouBao';
+            from.value = '豆包';
         }
     };
 
