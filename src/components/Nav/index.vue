@@ -3,9 +3,7 @@
         <div class="flex nav">
             <div class="flex nav_title">
                 <i class="iconfont icon-bg" style="font-size: 19px; cursor: pointer;">&#xe600;</i>
-                <span @click="title = !title" class="nav_title_text"
-                    :data-text="title ? '不知名の小站' : 'Made by XunQiu & YZR'">{{ title ? "不知名の小站" : "Made by XunQiu & YZR"
-                    }}</span>
+                <span @click="titleIndex++" class="nav_title_text" :data-text="titleList[titleIndex]">{{ titleList[titleIndex] }}</span>
             </div>
             <div class="flex nav_links">
                 <span class="nav_links_text" v-for="link in links" :key="link.id">{{ link.text }}</span>
@@ -18,12 +16,17 @@
 
 </template>
 <script setup lang="ts" Name="Nav">
-import { ref } from 'vue';
-import links from './links.json'
-
-//true "不知名の小站"
-//false "Made by XunQiu & YZR"
-let title = ref<boolean>(true)
+    import { computed, ref } from 'vue'
+    import links from './links.json'
+    
+    const titleList = [
+        "不知名の小站",
+        "Made by XunQiu"
+    ]
+    const titleNum = ref<number>(0)
+    const titleIndex = computed(()=> {
+        return titleNum.value % titleList.length
+    })
 </script>
 
 <style scoped>
