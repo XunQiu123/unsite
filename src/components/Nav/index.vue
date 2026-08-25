@@ -1,17 +1,17 @@
 <template>
     <div class="flex nav_main">
-        <div class="flex nav">
-            <div class="flex nav_title">
+        <nav class="flex nav">
+            <section class="flex nav_title">
                 <i class="iconfont icon-bg" style="font-size: 19px; cursor: pointer;">&#xe600;</i>
                 <span @click="titleNum++" class="nav_title_text" :data-text="titleList[titleIndex]">{{ titleList[titleIndex] }}</span>
-            </div>
-            <div class="flex nav_links">
+            </section>
+            <section class="flex nav_links">
                 <span class="nav_links_text" v-for="link in links" :key="link.id">{{ link.text }}</span>
-            </div>
-            <div class="flex nav_func">
+            </section>
+            <section class="flex nav_func">
                 <i style="cursor: pointer;" class="iconfont icon-bg">&#xe885;</i>
-            </div>
-        </div>
+            </section>
+        </nav>
     </div>
 
 </template>

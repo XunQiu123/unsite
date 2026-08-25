@@ -1,9 +1,9 @@
 <template>
     <div class="flex welcome_main">
-        <div class="flex welcome">
+        <section class="flex welcome">
             <span class="welcome_hitokoto">{{ hitokoto }}</span>
             <span class="welcome_from">{{ from }}</span>
-        </div>
+        </section>
     </div>
 </template>
 <script setup lang="ts" name="Welcome">
