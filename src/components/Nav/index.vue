@@ -3,7 +3,7 @@
         <div class="flex nav">
             <div class="flex nav_title">
                 <i class="iconfont icon-bg" style="font-size: 19px; cursor: pointer;">&#xe600;</i>
-                <span @click="titleIndex++" class="nav_title_text" :data-text="titleList[titleIndex]">{{ titleList[titleIndex] }}</span>
+                <span @click="titleNum++" class="nav_title_text" :data-text="titleList[titleIndex]">{{ titleList[titleIndex] }}</span>
             </div>
             <div class="flex nav_links">
                 <span class="nav_links_text" v-for="link in links" :key="link.id">{{ link.text }}</span>
@@ -19,7 +19,7 @@
     import { computed, ref } from 'vue'
     import links from './links.json'
     
-    const titleList = [
+    const titleList:string[] = [
         "不知名の小站",
         "Made by XunQiu"
     ]
