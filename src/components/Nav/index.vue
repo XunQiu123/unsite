@@ -2,7 +2,7 @@
     <div class="flex nav_main">
         <div class="flex nav">
             <div class="flex nav_title">
-                <i class="iconfont icon-bg" style="font-size: 19px;">&#xe600;</i>
+                <i class="iconfont icon-bg" style="font-size: 19px; cursor: pointer;">&#xe600;</i>
                 <span @click="title = !title" class="nav_title_text"
                     :data-text="title ? '不知名の小站' : 'Made by XunQiu & YZR'">{{ title ? "不知名の小站" : "Made by XunQiu & YZR"
                     }}</span>
@@ -11,7 +11,7 @@
                 <span class="nav_links_text" v-for="link in links" :key="link.id">{{ link.text }}</span>
             </div>
             <div class="flex nav_func">
-                <i class="iconfont icon-bg">&#xe885;</i>
+                <i style="cursor: pointer;" class="iconfont icon-bg">&#xe885;</i>
             </div>
         </div>
     </div>

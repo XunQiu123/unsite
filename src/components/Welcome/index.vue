@@ -22,7 +22,7 @@
     .welcome{
         max-width: 1350px;
         width: 100%;
-            height: 300px;
+        height: 300px;
         justify-content: center;
         align-items: center;
         flex-direction: column;
